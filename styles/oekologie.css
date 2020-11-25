@@ -1,0 +1,14 @@
+html {
+  background: url(../images/bg-5.jpg) no-repeat center center;
+}
+
+/* Navigation Bar */
+#history-link {
+  visibility: hidden;
+}
+#production-link {
+  visibility: hidden;
+}
+#people-link {
+  visibility: hidden;
+}

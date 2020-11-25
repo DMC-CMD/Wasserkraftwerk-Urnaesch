@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="de" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Geschichte</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/geschichte.css">
+
+    <script src="https://kit.fontawesome.com/fa8231ebd1.js" crossorigin="anonymous"></script>
+    <script src="scripts/geschichte.js" charset="utf-8"></script>
+
+  </head>
+  <body>
+
+    <!-- Navigation Bar  -->
+    <div class="bg-img">
+      <div class="container">
+        <nav id="navbar">
+          <ul class="nav-list">
+            <li class="nav-item"><a class="main-link" id="home-link" href="index.html" onmouseover="showLinkText(this)" onmouseout="hideLinkText(this)"> <p class="link-text hidden" id="home-lt"> Home </p> <i class="fas fa-home icon" id="home"></i></a></li>
+            <li class="nav-item"><a class="main-link" id="history-link" href="geschichte.html" onmouseover="showLinkText(this)" onmouseout="hideLinkText(this)"> <p class="link-text hidden" id="history-lt"> Geschichte </p> <i class="fas fa-history icon" id="history"></i></a></li>
+            <li class="nav-item"><a class="main-link" id="production-link" href="produktion.html" onmouseover="showLinkText(this)" onmouseout="hideLinkText(this)"><p class="link-text hidden" id="production-lt"> Produktion </p> <i class="fas fa-car-battery icon" id="car-battery"></i></a> </li>
+            <li class="nav-item"><a class="main-link" id="ecology-link" href="oekologie.html" onmouseover="showLinkText(this)" onmouseout="hideLinkText(this)"> <p class="link-text hidden" id="ecology-lt"> Ökologie </p> <i class="fas fa-seedling icon" id="seedling"></i></a></li>
+            <li class="nav-item"><a class="main-link" id="people-link" href="betreiber.html" onmouseover="showLinkText(this)" onmouseout="hideLinkText(this)"> <p class="link-text hidden" id="people-lt"> Betreiber </p> <i class="fas fa-lightbulb icon" id="lightbulb"></i></a> </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+
+
+
+
+    <!-- Custom Part - Conent -->
+
+    <div class="imageNavigation">
+
+      <div class="slideNav" id="backSlideNav" onmouseover="showBackSlideText()" onclick="backSlide()" onmouseout="hideBackSlideText()">
+        <p class="slideNavText backSlideText" onclick="backSlide()">Zurück</p>
+        <i class="fas fa-long-arrow-alt-left slideNavBtn" id="backBtn"></i>
+      </div>
+
+      <div class="slideNav" id="nextSlideNav" onmouseover="showNextSlideText()" onclick="nextSlide()" onmouseout="hideNextSlideText()">
+        <i class="fas fa-long-arrow-alt-right slideNavBtn" id="nextBtn"></i>
+        <p class="slideNavText nextSlideText" onclick="nextSlide()">Weiter</p>
+      </div>
+
+    </div>
+
+
+
+    <script src="scripts/script.js" charset="utf-8"></script>
+    <script src="scripts/geschichte.js" charset="utf-8"></script>
+  </body>
+</html>

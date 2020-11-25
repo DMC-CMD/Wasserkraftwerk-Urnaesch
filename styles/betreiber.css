@@ -1,0 +1,14 @@
+html {
+  background: url(../images/bg-6.jpg) no-repeat center center;
+}
+
+/* Navigation Bar */
+#history-link {
+  visibility: hidden;
+}
+#production-link {
+  visibility: hidden;
+}
+#ecology-link {
+  visibility: hidden;
+}
