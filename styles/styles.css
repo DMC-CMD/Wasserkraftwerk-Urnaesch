@@ -17,6 +17,7 @@ html {
 .nav-item {
   margin-top: 4%;
   margin-bottom: 4%;
+  margin-left: 2%;
   text-align: right;
 }
 
@@ -52,9 +53,9 @@ html {
 
 .home-link-hover {
 
-  border-radius: 10px;
+  /* border-radius: 10px; */
   background-color: #fbf6f0;
-  opacity: 0.75;
+  opacity: 0.5;
 }
 
 
